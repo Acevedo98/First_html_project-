@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(217, 224, 224);
+}
+
+#imgg {
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+
+.text {
+  font-size: 50px;
+}
+
+.tittle {
+  font-size: 50px;
+}
+
+.container_info {
+  font-size: 30px;
+}
+
+.characteristics {
+height: 600px;
+width: 300px;
+display: flex;  
+flex-direction: column;   /*sirve para cambiar la orientacion, column: coloca las cosas hacia abajo (vertical) y el ROW: coloca las cosas en horizontal */
+justify-content: flex-start; /*colocar el contenido al principio (star) o al final con (stop)*/ 
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
